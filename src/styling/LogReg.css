@@ -1,0 +1,110 @@
+.logRegPage{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 35px;
+}
+
+.NavBarLogReg{
+    background-color: #cbbea5;
+    height: 80px;
+    width: 1575px;
+    display: flex;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.RegistrationBox{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.LoginBox{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.labelusername{
+    margin-right: 65px;
+}
+
+.inputusername{
+    margin-bottom: 40px;
+}
+
+.labelemail{
+    margin-right: 98px;
+}
+
+.inputemail{
+    margin-bottom: 40px;
+}
+
+.labelpassword{
+    margin-right: 70px;
+}
+
+.inputpassword{
+    margin-bottom: 40px;
+}
+
+.labelconfirm{
+    margin-right: 10px;
+}
+
+.inputconfirm{
+    margin-bottom: 40px;
+}
+
+.RegisterHeader{
+    margin-bottom: 30px;
+}
+
+.RegisterButton{
+    background-color: #cbbea5;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+.Loginlabelemail{
+    margin-right: 98px;
+}
+
+.Logininputemail{
+    margin-bottom: 40px;
+}
+
+.Loginlabelpassword{
+    margin-right: 70px;
+}
+
+.Logininputpassword{
+    margin-bottom: 40px;
+}
+
+.LoginHeader{
+    margin-bottom: 30px;
+}
+
+.LoginButton{
+    background-color: #cbbea5;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 120px;
+    margin-top: 170px;
+}

@@ -1,0 +1,94 @@
+.AboutBlock{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+.AboutImg{
+    height: 300px;
+}
+
+.AboutInfo{
+    font-size: 40px;
+    margin-right: 250px;
+    font-weight:500;
+    margin-top: 60px;
+}
+
+.AboutImgLeft{
+    height: 300px;
+}
+
+.AboutInfoLeft{
+    font-size: 40px;
+    margin-left: 200px;
+    font-weight:500;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+.AboutBody{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.InfoScrollBar{
+    height: 690px;
+    width: 1260px;
+    overflow-x: scroll;
+    margin-bottom: 0px;
+}
+
+.WelcomeSection{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.AboutHeader{
+    margin-bottom: 20px;
+}
+
+.TextAndImage{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.TextAbout{
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.TextAboutRight{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.AboutImage{
+    height: 300px;
+    width: 300px;
+}
+
+.TextWriting{
+    font-size: 20px;
+}
+
+.HomeAbout{
+    padding-bottom: 100px;
+}
+
+.SubHeader{
+    margin-bottom: 5px;
+}
+
+.AboutParagraph{
+    margin-bottom: 15px;
+}
+
+.AboutListing{
+    margin-left: 20px;
+}
+
+.AboutList{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.NavBar{
+    background-color: #cbbea5;
+    height: 80px;
+    display: flex;
+    width: 1275px;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+
+
+
+.NewPostHome{
+    background-color: #cbbea5;
+    border-color: #cbbea5;
+    font-size: 20px;
+    margin-top: 25px;
+    position: relative;
+    left: 900px;
+}
+
+.PostBox{
+    border-color: black;
+    width: 400px;
+    border-style: solid;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.Image{
+    width: 400px;
+    height: 400px;
+    border-style: solid none solid none;
+}
+
+.CaptionBox{
+    padding: 10px;
+    font-size: 15px;
+    width: 400px;
+}
+
+.BodyHome{
+    padding-top: 50px;
+    padding-left: 10%;
+    margin-right: 130px;
+}
+
+.Home{
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.DeleteBtn{
+    background-color: #cbbea5;
+    margin-bottom: 3px;
+    margin-left: 100px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #cbbea5;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.EditBtn{
+    background-color: #cbbea5;
+    margin-bottom: 3px;
+    margin-left: 120px;
+    padding: 2px;
+    height: 20px;
+    margin-top: 5px;
+
+}
+
+.PostOption{
+    display: flex;
+}
+
+.Body{
+    display: flex;
+}
+
+
+
+.ScrollBar{
+    height: 710px;
+    width: 1260px;
+    overflow-y: scroll;
+    margin-bottom: 0px;
+}
+
+.ScrollBarUser{
+    overflow-y: scroll;
+    margin-bottom: 0px;
+    height: 500px;
+}
+
+.NavBarHeader{
+    color: white;
+    font-size: 55px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.HelloUserName{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.HomePFP{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+    margin-right: 20px;
+    margin-left: 750px;
+    border-style: solid;
+    border-color: black;
+}
+
+.HomePFPCreate{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+    margin-right: 20px;
+    margin-left: 790px;
+    border-style: solid;
+    border-color: black;
+}
+
+.usernamehome{
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.userimageHome{
+    height: 40px;
+    width: 40px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.PostUsers{
+    display: flex;
+}
+
+.UserBodyHome{
+    padding: 50px;
+    width: 200px;
+}
+
+.UserImageHome{
+    height: 60px;
+    width: 60px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+}
+
+.UserNameHome{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: monospace;
+    color: black;
+    text-decoration: none;
+}
+
+.UserSearchBoxHome{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 2px;
+}
+
+.SearchUserSectionBox{
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    height: 500px;
+    width: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.SearchBarUser{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px 0px 0px 10px;
+    border-style: solid none solid solid ;
+    border-color: black;
+}
+
+.alignUser{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.searchimgUser{
+    width: 17px;
+    border-style: solid solid solid none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.Align{
+    display: flex;
+}
+.SearchBarHeader{
+    color: white;
+    font-size: 55px;
+    margin-left: 10px;
+}
+
+.NavBarSearch{
+    background-color: #cbbea5;
+    height: 80px;
+    display: flex;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.tripledotimg{
+    height: 30px;
+    width: 30px;
+}
+
+.TripleDotBtn{
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 180px;
+    background-color: white;
+}
+
+.alert{
+    background-color: white;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.UserNameHomePost{
+    font-size: 20px;
+    margin-top: 10px;
+}

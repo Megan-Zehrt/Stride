@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.NavBarOnePost {
+    background-color: #cbbea5;
+    height: 80px;
+    width: 1275px;
+    display: flex;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.NavBarHeaderOnePost {
+    color: white;
+    font-size: 55px;
+    margin-left: 10px;
+}
+
+.HomeOnePost {
+    padding-bottom: 100px;
+}
+
+.OnePostImage{
+    height: 400px;
+    width: 400px;
+    border-style: none solid none none;
+}
+
+.OnePostImageBox{
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px rgb(138, 136, 136);
+}
+
+.OnePostCaption{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.OnePostCategory{
+    color: lightgray;
+    margin-top: 15px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.DeleteBtnOnePost{
+    background-color: white;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.LineUsersOnePost{
+    display: flex;
+}
+
+.userimageAbout{
+    height: 40px;
+    width: 40px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.UsernamePFP{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.UsernameAbout{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}

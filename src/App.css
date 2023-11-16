@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+.BodyNavBar{
+  width: 250px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  padding: 10px;
+  border-color: lightgray;
+  border-style: none solid none none;
+  height: 770px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.HouseIcon{
+  width: 15px;
+  margin-left: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ProfileIcon{
+  width: 15px;
+  margin-left: 50px;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  border-style: solid;
+  border-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MainCombo{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+#more {display: none;}
+
+.DefaultBtn{
+  background-color: white;
+  border-style: none;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.DefaultBtnAbout{
+  background-color: white;
+  border-style: none;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+  opacity: 0.8;
+}
+
+.DefaultBtn:hover{
+  background-color:#cbbea5;
+  transform: scale(1.2);
+}
+
+.DefaultBtnAbout:hover{
+  background-color:#cbbea5;
+  transform: scale(1.2);
+}
+
+.DefaultBtnSignOut{
+  background-color: white;
+  border-style: none;
+  font-size: 20px;
+  margin-top: 180px;
+  margin-left: 10px
+}
+
+.DefaultBtnSignOut:hover{
+  background-color:#cbbea5;
+  transform: scale(1.2);
+}
+
+.LogoImage{
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.WebName{
+  color: black;
+  font-size: 40px;
+  padding-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in-element {
+  animation: fadeIn 1s ease;
+}
+
+.mode{
+  background-color: white;
+  color: black,
+}
+
+.mode.dark-mode{
+  background-color: black;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
