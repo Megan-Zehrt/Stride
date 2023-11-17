@@ -1,3 +1,6 @@
+<img src=“![image](https://github.com/Megan-Zehrt/Stride-Deployment/assets/144066533/dc5f3670-82ff-4707-9f03-15f8d10f7452)
+” width=“30%” alt=“alt text”>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
